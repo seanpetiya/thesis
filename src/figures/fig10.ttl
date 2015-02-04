@@ -1,0 +1,14 @@
+# NAME         :  Figure 10. A Linked Data example using VIAF (p. 36)
+# DATE CREATED :  11/29/2014
+# AUTHOR       :  Sean Petiya
+# URL          :  http://petiya.com/thesis
+
+@prefix cbo: <http://comicmeta.org/cbo/> .
+
+<#XMen_1963>
+    a cbo:Series ;
+    cbo:publisher <http://viaf.org/viaf/152451185>.
+
+<http://viaf.org/viaf/152451185>
+    a cbo:Publisher ;
+    cbo:publisherName "Marvel Comics" .

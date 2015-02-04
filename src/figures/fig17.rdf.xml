@@ -1,0 +1,42 @@
+<!--
+    NAME         :  Figure 17. XML data converted to RDF/XML using XSLT (p. 65)
+    DATE CREATED :  11/29/2014
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+    SEE ALSO     :  http://comicmeta.org/tools/core-convert
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Uncanny X-Men (1963)</cbo:seriesTitle>
+                <cbo:seriesYear>1963</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>1</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>142</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM-" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+</rdf:RDF>

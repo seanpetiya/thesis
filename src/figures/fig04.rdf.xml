@@ -1,0 +1,13 @@
+<!--
+    NAME         :  Figure 4. RDF data encoded in RDF/XML (p. 25)
+    DATE CREATED :  11/29/2014
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+  <rdf:Description rdf:type="cbo:Comic" rdf:about="#XMen">
+    <cbo:seriesTitle>The X-Men</cbo:seriesTitle>
+  </rdf:Description>
+</rdf:RDF>

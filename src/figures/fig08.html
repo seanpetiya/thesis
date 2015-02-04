@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+    NAME         :  Figure 8. RDFa Lite markup added to HTML5 content.
+    DATE CREATED :  11/29/2014
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+    SUMMARY      :  This figure replaces schema.org classes (see Fig. 7) with vocabulary terms from the Comic Book Ontology.
+-->
+<html>
+    <head>
+        <title>Figure 8</title>
+    </head>
+    <body>
+        <section id="ComicBook" vocab="http://comicmeta.org/cbo/" typeof="Comic">
+            <div property="series" resource="#XMen_1963" typeof="Series">
+                <h1 property="seriesTitle">The X-Men</h1>
+                <div property="publisher" typeof="Publisher" resource="#MarvelComics">
+                    Publisher:
+                    <span property="publisherName">Marvel Comics</span>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

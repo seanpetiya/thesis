@@ -1,0 +1,12 @@
+<!--
+    NAME         :  Figure 1. An XML document (p. 23)
+    DATE CREATED :  11/29/2014
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+-->
+
+<Comic>
+  <seriesTitle type="alternate">
+    The X-Men (1963)
+  </seriesTitle>
+</Comic>

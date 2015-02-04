@@ -1,0 +1,16 @@
+# NAME         :  Figure 9. RDF triples extracted from RDFa markup (p. 29)
+# DATE CREATED :  11/29/2014
+# AUTHOR       :  Sean Petiya
+# URL          :  http://petiya.com/thesis
+# SUMMARY      :  RDF triples extracted from the semantic annotations, or RDFa markup, added to the HTML5 content in Fig. 8.
+
+@prefix cbo: <http://comicmeta.org/cbo/> .
+
+<#XMen_1963>
+    a cbo:Series ;
+    cbo:seriesTitle "The X-Men" ;
+    cbo:publisher <#MarvelComics> .
+
+<#MarvelComics>
+    a cbo:Publisher ;
+    cbo:publisherName "Marvel Comics" .

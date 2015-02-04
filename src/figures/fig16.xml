@@ -1,0 +1,19 @@
+<!--
+    NAME         :  Figure 16. CSV data converted to XML (p. 64)
+    DATE CREATED :  11/29/2014
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+    SEE ALSO     :  http://comicmeta.org/tools/core-convert
+-->
+
+<cbo:Comic xmlns:cbo="http://comicmeta.org/cbo/">
+    <cbo:publisherName>Marvel</cbo:publisherName>
+    <cbo:country>US</cbo:country>
+    <cbo:seriesTitle>Uncanny X-Men (1963)</cbo:seriesTitle>
+    <cbo:seriesYear>1963</cbo:seriesYear>
+    <cbo:volumeNumber>1</cbo:volumeNumber>
+    <cbo:issueNumber>142</cbo:issueNumber>
+    <cbo:language>en</cbo:language>
+    <cbo:format>ComicBook</cbo:format>
+    <cbo:condition>NM-</cbo:condition>
+</cbo:Comic>
