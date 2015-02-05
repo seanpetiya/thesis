@@ -1,0 +1,16 @@
+/* EXAMPLES - MODELS */
+Figure 27. CBO Work Model RDF/XML example (Publication).	88
+Figure 28. CBO Work Model RDF/XML example (Story).	89
+Figure 29. CBO Work Model RDF/XML example (Bibliographic Relationships).	89
+Figure 31. CBO Universe Model RDF/XML example.	91
+Figure 32. CBO Item Model RDF/XML example.	92
+Figure 34. CBO Collection Model RDF/XML example.	94
+
+/* EXAMPLES - PROFILES */
+Figure 38. Core AP example in HTML/RDFa.	103
+Figure 39. Core AP example in HTML/RDFa using fragmented identifiers.	104
+Figure 40. Core AP example in HTML/RDFa using blank nodes.	104
+Figure 42. Publisher (PB) AP example in HTML/RDFa.	107
+Figure 43. Retailer (RT) AP example in HTML/RDFa.	109
+Figure 44. Library (LB) AP example in HTML/RDFa.	113
+Figure 45. Linked Data in HTML/RDFa example.	116
