@@ -3,7 +3,7 @@
 # AUTHOR       : Sean Petiya
 # URL          : petiya.com/thesis
 # SUMMMARY     : List of example files, figures, and associated page numbers. These code snippets
-provide a general overview of technologies and syntaxes explored in the study, including HTML, XML, RDF, RDFa, OWL, and others.
+				 provide a general overview of technologies and syntaxes explored in the study, including HTML, XML, RDF, RDFa, OWL, and others.
 
 ----------------------------------------------------------------------------------------------
 FILE			NAME																	PAGE
