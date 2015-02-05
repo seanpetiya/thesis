@@ -1,14 +1,4 @@
-# NAME         : Thesis Figure Table
-# DATE CREATED : 02/03/2015
-# AUTHOR       : Sean Petiya
-# URL          : petiya.com/thesis
-# SUMMMARY     : 
-
 # Figures
-
-DATE CREATED : 02/03/2015
-AUTHOR       : Sean Petiya
-URL          : petiya.com/thesis
 
 ## Summary
 List of example files, figures, and associated page numbers. These code snippets provide a general overview of technologies and syntaxes explored in the study, including HTML, XML, RDF, RDFa, OWL, and others.
@@ -16,7 +6,7 @@ List of example files, figures, and associated page numbers. These code snippets
 ## Table
 
 FILE       		|	NAME																	|	PAGE
-------------------------------------------------------------------------------------------------------
+----------------|---------------------------------------------------------------------------|---------
 fig01.xml		|	Figure 1. An XML document.												|	p. 23
 fig02.xml		|	Figure 2. A qualified XML document.										|	p. 24
 fig04.rdf.xml	|	Figure 4. RDF data encoded in RDF/XML.									|	p. 25
