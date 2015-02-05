@@ -1,4 +1,4 @@
-# Figures
+# thesis/src/figures
 
 ## Summary
 List of example files, figures, and associated page numbers. These code snippets provide a general overview of technologies and syntaxes explored in the study, including HTML, XML, RDF, RDFa, OWL, and others.
