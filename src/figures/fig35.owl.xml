@@ -1,0 +1,16 @@
+<!--
+    NAME         :  Figure 35. OWL/SKOS example (p. 95)
+    DATE CREATED :  11/29/14
+    AUTHOR       :  Sean Petiya
+    URL          :  http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <NamedIndividual rdf:about="http://comicmeta.org/vocab/Polystyrene">
+        <rdf:type rdf:resource="cbo:Plastic"/>
+        <rdf:type rdf:resource="skos:Concept"/>
+        <rdfs:label xml:lang="en">Polystyrene</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
