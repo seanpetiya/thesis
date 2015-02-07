@@ -1,8 +1,8 @@
 <!--
-    NAME         :  Figure 15. An XSLT code snippet (p. 63)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
+    NAME         : Figure 15. An XSLT code snippet (p. 63)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
 -->  
 
 <xsl:template name="Series" match="cbo:Comic">

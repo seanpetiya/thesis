@@ -1,8 +1,8 @@
 <!--
-    NAME         :  Figure 2. A qualified XML document (p. 24)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
+    NAME         : Figure 2. A qualified XML document (p. 24)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
 -->
 
 <cbo:Comic xmlns:cbo="http://comicmeta.org/cbo/">

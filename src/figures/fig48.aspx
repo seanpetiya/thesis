@@ -1,10 +1,10 @@
 <%@ Page Language="C#" %>
 <!DOCTYPE html>
 <!--
-    NAME         :  Figure 48. Dynamic content rendered in HTML/RDFa (p. 119)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
+    NAME         : Figure 48. Dynamic content rendered in HTML/RDFa (p. 119)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
 -->
 <html>
     <head>

@@ -1,9 +1,9 @@
 <!--
-    NAME         :  Figure 17. XML data converted to RDF/XML using XSLT (p. 65)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
-    SEE ALSO     :  http://comicmeta.org/tools/core-convert
+    NAME         : Figure 17. XML data converted to RDF/XML using XSLT (p. 65)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+    SEE ALSO     : http://comicmeta.org/tools/core-convert
 -->
 
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"

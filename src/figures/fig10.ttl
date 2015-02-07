@@ -1,7 +1,7 @@
-# NAME         :  Figure 10. A Linked Data example using VIAF (p. 36)
-# DATE CREATED :  11/29/14
-# AUTHOR       :  Sean Petiya
-# URL          :  http://petiya.com/thesis
+# NAME         : Figure 10. A Linked Data example using VIAF (p. 36)
+# DATE CREATED : 11/29/14
+# AUTHOR       : Sean Petiya
+# URL          : http://petiya.com/thesis
 
 @prefix cbo: <http://comicmeta.org/cbo/> .
 

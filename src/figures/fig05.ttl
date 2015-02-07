@@ -1,7 +1,7 @@
-# NAME         :  Figure 5. RDF data encoded in Turtle (p. 25)
-# DATE CREATED :  11/29/14
-# AUTHOR       :  Sean Petiya
-# URL          :  http://petiya.com/thesis
+# NAME         : Figure 5. RDF data encoded in Turtle (p. 25)
+# DATE CREATED : 11/29/14
+# AUTHOR       : Sean Petiya
+# URL          : http://petiya.com/thesis
 
 @prefix cbo: <http://comicmeta.org/cbo/> .
 

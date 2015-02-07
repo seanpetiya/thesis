@@ -1,8 +1,8 @@
 <!--
-    NAME         :  Figure 35. OWL/SKOS example (p. 95)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
+    NAME         : Figure 35. OWL/SKOS example (p. 95)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
 -->
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"

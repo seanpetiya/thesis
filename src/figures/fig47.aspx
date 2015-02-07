@@ -1,10 +1,10 @@
 <%@ Page Language="C#" %>
 <!DOCTYPE html>
 <!--
-    NAME         :  Figure 47. Dynamic content template example in ASP.NET (p. 119)
-    DATE CREATED :  11/29/14
-    AUTHOR       :  Sean Petiya
-    URL          :  http://petiya.com/thesis
+    NAME         : Figure 47. Dynamic content template example in ASP.NET (p. 119)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
 -->
 <html>
     <head>
