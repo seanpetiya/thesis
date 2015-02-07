@@ -1,9 +1,3 @@
-/* EXAMPLES - MODELS */
-
-Figure 31. CBO Universe Model RDF/XML example.	91
-Figure 32. CBO Item Model RDF/XML example.	92
-Figure 34. CBO Collection Model RDF/XML example.	94
-
 /* EXAMPLES - PROFILES */
 Figure 38. Core AP example in HTML/RDFa.	103
 Figure 39. Core AP example in HTML/RDFa using fragmented identifiers.	104

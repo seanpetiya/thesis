@@ -4,7 +4,7 @@
 
 List of files, figures, and associated page numbers. The code in this folder collects RDF/XML examples for the various models that compose the Comic Book Ontology, including the Work model as well as Item and Collection models. These examples are intended to illustrate a handful of possibilities for using the Ontology to describe various aspects of comic works and collections.
 
-## Table
+## Contents
 
 FILE|NAME|PAGE
 ----|----|----|
