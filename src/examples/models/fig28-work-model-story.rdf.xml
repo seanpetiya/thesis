@@ -1,0 +1,26 @@
+<!--
+    NAME         : Figure 28. CBO Work Model RDF/XML example (Story) (p. 89)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <rdf:Description>
+        <cbo:series>
+            <rdf:Description rdf:about="http://www.comics.org/series/2605">
+                <cbo:issue>
+                    <rdf:Description rdf:about="http://www.comics.org/issue/35133">
+                        <cbo:issueNumber>142</cbo:issueNumber>
+                        <cbo:story>
+                            <rdf:Description rdf:about="http://www.comics.org/issue/35133/#209337">
+                                <cbo:storyTitle>Mind Out of Time!</cbo:storyTitle>
+                                <cbo:storyArc rdf:resource="http://dbpedia.org/page/Days_of_Future_Past"/>
+                            </rdf:Description>
+                        </cbo:story>
+                    </rdf:Description>
+                </cbo:issue>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<!--
+    NAME         : Figure 27. CBO Work Model RDF/XML example (Publication) (p. 89)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <rdf:Description>
+        <cbo:series>
+            <rdf:Description rdf:about="http://www.comics.org/series/2605">
+                <cbo:seriesTitle>The Uncanny X-Men</cbo:seriesTitle>
+                <cbo:alternativeTitle>Uncanny X-Men (1963)</cbo:alternativeTitle>
+                <cbo:alternativeTitle>Uncanny X-Men (1963-2011)</cbo:alternativeTitle>
+                <cbo:seriesYear>1963</cbo:seriesYear>
+                <cbo:endDate>2011</cbo:endDate>
+                <cbo:volumeNumber>1</cbo:volumeNumber>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+</rdf:RDF>

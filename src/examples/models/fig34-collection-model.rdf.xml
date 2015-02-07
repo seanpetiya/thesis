@@ -1,0 +1,28 @@
+<!--
+    NAME         : Figure 34. CBO Collection Model RDF/XML example (p. 94)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+    <rdf:Description rdf:about="#MyComicBook">
+        <cbo:certNumber>022672202</cbo:certNumber>
+        <cbo:grade rdf:resource="http://comicmeta.org/vocab/NM-"></cbo:grade>
+        <cbo:encased rdf:resource="http://comicmeta.org/vocab/Polystyrene"></cbo:encased>
+        <cbo:inBox rdf:resource="#MyBoxOfComics"></cbo:inBox>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#MyComics" rdf:type="cbo:Collection">
+        <dc:title>My Comic Book Collection</dc:title>
+        <cbo:owner rdf:resource="https://sean.petiya.com/#me"/>
+        <cbo:box>
+            <rdf:Description rdf:about="#MyBoxOfComics">
+                <dc:title>Box #1</dc:title>
+            </rdf:Description>
+        </cbo:box>
+    </rdf:Description>
+    
+</rdf:RDF>

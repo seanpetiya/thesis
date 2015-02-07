@@ -1,0 +1,17 @@
+<!--
+    NAME         : Figure 29. CBO Work Model RDF/XML example (Bibliographic Relationships) (p. 90)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <rdf:Description>
+        <cbo:issue>
+            <rdf:Description rdf:about="http://www.comics.org/issue/35133">
+                <cbo:reprintedIn rdf:resource="http://www.worldcat.org/oclc/44674970"/>
+                <cbo:adaptedBy rdf:resource="http://www.worldcat.org/oclc/858126746"/>
+            </rdf:Description>
+        </cbo:issue>
+    </rdf:Description>
+</rdf:RDF>

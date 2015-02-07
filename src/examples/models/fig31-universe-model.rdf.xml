@@ -1,0 +1,23 @@
+<!--
+    NAME         : Figure 32. CBO Item Model RDF/XML example (p. 92)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/"
+         xmlns:schema="http://schema.org/">
+    <rdf:Description rdf:about="http://www.comics.org/issue/35133/#209337">
+        <cbo:storyArc rdf:resource="http://dbpedia.org/page/Days_of_Future_Past"/>
+        <cbo:storyTitle>Mind Out of Time!</cbo:storyTitle>
+        <cbo:character>
+            <rdf:Description rdf:about="http://dbpedia.org/page/Wolverine_(comics)">
+                <schema:name>Wolverine</schema:name>
+                <cbo:universe>
+                    <rdf:Description rdf:about="http://marvel.wikia.com/Earth-811">
+                    </rdf:Description>
+                </cbo:universe>
+            </rdf:Description>
+        </cbo:character>
+    </rdf:Description>
+</rdf:RDF>

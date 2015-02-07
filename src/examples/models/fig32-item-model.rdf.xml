@@ -1,0 +1,27 @@
+<!--
+    NAME         : Figure 32. CBO Item Model RDF/XML example (p. 93)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    <rdf:Description>
+        <cbo:series>
+            <rdf:Description>
+                <cbo:seriesTitle>Amazing Spider-Man (1963)</cbo:seriesTitle>
+                <cbo:issue>
+                    <rdf:Description>
+                        <cbo:issueNumber>302</cbo:issueNumber>
+                        <cbo:copy>
+                            <rdf:Description>
+                                <cbo:certNumber>022672202</cbo:certNumber>
+                                <cbo:owner rdf:resource="https://sean.petiya.com/#me"/>
+                            </rdf:Description>
+                        </cbo:copy>
+                    </rdf:Description>
+                </cbo:issue>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+</rdf:RDF>
