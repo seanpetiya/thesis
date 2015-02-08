@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 39. Core AP example in HTML/RDFa using fragmented identifiers (p. 105)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<html>
+    <head>
+        <title>Figure 39 | Building a Semantic Web of Comics</title>
+    </head>
+    <body>
+        <div vocab="http://comicmeta.org/cbo/" typeof="Comic">
+            <div property="series" typeof="Series" resource="#AmazingSpiderMan_1963">
+                <h1 property="seriesTitle">The Amazing Spider-Man</h1>
+                <div property="issue" typeof="Issue" resource="#AmazingSpiderMan_1963_302">
+                    Issue Number: <span property="issueNumber">302</span><br />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

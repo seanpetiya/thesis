@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 38. Core AP example in HTML/RDFa (p. 104)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<html>
+    <head>
+        <title>Figure 38 | Building a Semantic Web of Comics</title>
+    </head>
+    <body>
+        <div vocab="http://comicmeta.org/cbo/" typeof="Comic">
+            <div property="series" typeof="Series Volume" resource="http://www.comics.org/series/1570">
+                <h1 property="seriesTitle">The Amazing Spider-Man (<span property="seriesYear">1963</span>)</h1>
+                <div property="publisher" typeof="Publisher" resource="http://viaf.org/viaf/152451185">
+                    <h2 property="publisherName">Marvel Comics</h2>
+                </div>
+                Country: <span property="country" resource="http://id.loc.gov/vocabulary/geographicAreas/n-us">US</span>
+                Language: <span property="language" resource="http://id.loc.gov/vocabulary/iso639-2/eng">English</span>
+                Format: <span property="format" resource="http://comicmeta.org/vocab/ComicBook">Comic Book</span>
+                Volume Number: <span property="volumeNumber">1</span>
+                <div property="issue" typeof="Issue" resource="http://www.comics.org/issue/44703">
+                    Issue Number: <span property="issueNumber">302</span>
+                    Publication Date: <span property="publicationDate">1988-07</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
