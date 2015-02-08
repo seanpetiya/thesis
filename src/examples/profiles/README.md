@@ -2,7 +2,9 @@
 
 ## Summary
 
-List of files, figures, and associated page numbers. The code in this folder collects RDF/XML examples for the various models that compose the Comic Book Ontology, including the Work model as well as Item and Collection models. These examples are intended to illustrate a handful of possibilities for using the Ontology to describe various aspects of comic works and collections.
+List of files, figure titles, and associated page numbers for application profile (AP) examples. The code in this folder collects HTML and RDFa examples illustrating usage of the metadata APs developed as a result of this study. The profiles include elements from the Comic Book Ontology (CBO), as well as widely-used and established Web vocabularies, such as schema.org (schema) and Dublic Core (DC).
+
+These examples are intended to explore various possibilities for using the Comic Book Ontology to describe comics-related data in the Web content of different data publishers -- such as retailers, collectors, and other participants in the comics domain -- based on common scenarios and patterns identified in the study. The purpose of the metadata APs is to reduce the initial size of the Ontology and its documentation, which is intended to cover a broad and extensible conceptualization of the comics art form, to a manageable subset of elements targeted at the common needs of specific user groups. It is believed that these manageable subsets of the vocabulary will reduce errors in implementation, aid understandability, and enhance usability overall.
 
 ## Contents
 
