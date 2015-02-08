@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 43. Retailer (RT) AP example in HTML/RDFa (p. 109)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+    MOD HISTORY  : 
+-->
+<html>
+    <head>
+        <title>Figure 43 | Building a Semantic Web of Comics</title>
+    </head>
+    <body>
+        <div vocab="http://comicmeta.org/cbo/" prefix="schema: http://schema.org/" typeof="Comic">
+            <div property="series" typeof="Series" resource="#AmazingSpiderMan1963">
+                <h1 property="seriesTitle">The Amazing Spider-Man (<span property="seriesYear">1963</span>)</h1>
+                <div property="issue" typeof="Issue" resource="#AmazingSpiderMan1963_302">
+                    <div>
+                        Issue Number: <span property="issueNumber">302</span>
+                    </div>
+                    <div property="copy" typeof="Copy schema:IndividualProduct">
+                        <div>
+                            Grade: <span property="grade" resource="http://comicmeta.org/vocab/9.2">9.2</span>
+                            Condition: <span property="condition" resource="http://comicmeta.org/vocab/NM-">NM-</span>
+                            Certification: <span property="certNumber">0226722022</span>
+                        </div>
+                        <div property="schema:offers" typeof="schema:Offer">
+                            Sale Price: <span property="salePrice">20.00</span>
+                            Availability: <span property="schema:availability" resource="http://schema.org/InStock">In Stock</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

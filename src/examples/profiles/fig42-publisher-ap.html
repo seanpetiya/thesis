@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 42. Publisher (PB) AP example in HTML/RDFa (p. 107)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+-->
+<html>
+    <head>
+        <title>Figure 42 | Building a Semantic Web of Comics</title>
+    </head>
+    <body>
+        <div vocab="http://comicmeta.org/cbo/" prefix="schema: http://schema.org/" typeof="Comic">
+            <div property="series" typeof="Series" resource="#AmazingSpiderMan1963">
+                <h1 property="seriesTitle">
+                    The Amazing Spider-Man (<span property="seriesYear">1963</span>)
+                </h1>
+                <div property="issue" typeof="Issue" resource="#AmazingSpiderMan1963_302">
+                    <div>
+                        Issue Number: <span property="issueNumber">302</span>
+                    </div>
+                    <div property="artist" typeof="Contributor" resource="http://viaf.org/viaf/46886250">
+                        Artist: <span property="schema:name">Todd McFarlane</span>
+                    </div>
+                    <div property="writer" typeof="Contributor" resource="http://viaf.org/viaf/56733100">
+                        Writer: <span property="schema:name">David Michelinie</span>
+                    </div>
+                    <a property="preview" href="http://marvel.com/comics/issue/6708/amazing_spider-man_1963_302">Read Sample</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -13,4 +13,7 @@ FILE|NAME|PAGE
 fig38-core-ap-ex1.html|Figure 38. Core AP example in HTML/RDFa|p. 103
 fig39-core-ap-ex2.html|Figure 39. Core AP example in HTML/RDFa using fragmented identifiers|p. 104
 fig40-core-ap-ex3.html|Figure 40. Core AP example in HTML/RDFa using blank nodes|p. 104
+fig42-publisher-ap.html|Figure 42. Publisher (PB) AP example in HTML/RDFa|p. 107
+fig43-retailer-ap.html|Figure 43. Retailer (RT) AP example in HTML/RDFa|p. 109
+fig44-library-ap.html|Figure 44. Library (LB) AP example in HTML/RDFa.|p. 113
 

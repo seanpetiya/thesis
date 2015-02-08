@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 44. Library (LB) AP example in HTML/RDFa (p. 113)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+    MOD HISTORY  : 
+-->
+<html>
+    <head>
+        <title>Figure 44 | Building a Semantic Web of Comics</title>
+    </head>
+    <body>
+        <div vocab="http://comicmeta.org/cbo/" prefix="cbv: http://comicmeta.org/vocab/" typeof="Comic">
+            <div property="series" typeof="Series schema:Periodical schema:PublicationVolume" resource="#BlackHood">
+                <h1 property="seriesTitle">Black Hood</h1>
+                <div property="issue" typeof="Issue schema:PublicationIssue" resource="http://comicbookplus.com/?dlid=22302">
+                    Issue Number: <span property="issueNumber">12</span>
+                    <div property="copy" typeof="Copy schema:Product">
+                        Format: <span property="format" resource="cbv:DigitalComic">Digital Comic</span>
+                        <div property="schema:offers" typeof="schema:Offer">
+                            Availability: <span property="schema:availability" resource="http://schema.org/OnlineOnly">Online</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
