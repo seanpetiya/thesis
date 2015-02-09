@@ -6,6 +6,7 @@
     AUTHOR       : Sean Petiya
     URL          : http://comicmeta.org
     DESCRIPTION  : RDF description of Daredevil (1964) #67 in CBO using Comic Book Schema (Core).
+    MOD HISTORY  : 02/08/15 - Fixed errors in description, rdf:resource and foaf:name added for character data.
 -->
 
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -32,7 +33,7 @@
         <cbo:story>
             <rdf:Description>
                 <cbo:storyTitle>Stilt-Man Stalks the Soundstage</cbo:storyTitle>
-                <cbo:character rdf:about="http://marvel.wikia.com/Daredevil">Daredevil</cbo:character>
+                <cbo:character rdf:resource="http://marvel.wikia.com/Daredevil" foaf:name="Daredevil" />
                 <cbo:writer>Roy Thomas</cbo:writer>
             </rdf:Description>
         </cbo:story>
