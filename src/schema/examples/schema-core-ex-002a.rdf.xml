@@ -10,8 +10,9 @@
 
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:cbo="http://comicmeta.org/cbo/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
-  
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
     <rdf:Description rdf:about="http://example.org/publisher/Marvel">
         <cbo:publisherName>Marvel Comics</cbo:publisherName>
     </rdf:Description>
@@ -36,7 +37,7 @@
             </rdf:Description>
         </cbo:story>
     </rdf:Description>
-  
+
     <rdf:Description rdf:nodeID="DD67_Cover">
         <cbo:pageType rdf:resource="http://comicmeta.org/vocab/CoverPage"></cbo:pageType>
         <cbo:penciller>Marie Severin</cbo:penciller>
