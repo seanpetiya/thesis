@@ -3,7 +3,7 @@
 # AUTHOR       : Sean Petiya
 # URL          : http://petiya.com/thesis
 # SEE ALSO     : Appendix I (p. 180)
-# SUMMARY      : RDF triples extracted from the semantic annotations, or RDFa markup, of the primary HTML/RDFa example (Appendix H).
+# DESCRIPTION  : RDF triples extracted from the semantic annotations, or RDFa markup, of the primary HTML/RDFa example (Appendix H).
 # MOD HISTORY  : 02/08/15 - Updated data to reflect fixed role name: 'letterist' changed to 'letterer'.
 
 @prefix cbo: <http://comicmeta.org/cbo/> .

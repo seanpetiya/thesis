@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+    NAME         : Comic Book Schema (Core) Example #001A
+    DATE CREATED : 10/02/14
+    AUTHOR       : Sean Petiya
+    URL          : http://comicmeta.org
+    DESCRIPTION  : RDF description of Days of Future Past (X-Men V1 #141-142) in CBO using Comic Book Schema (Core).
+    NOTE         : XML elements are unqualified, because CBO is the base namespace in this example.
+-->
+
+<Collection xmlns="http://comicmeta.org/cbo">
+    
+    <!--http://www.comics.org/issue/35059/-->
+    <Comic>
+        <publisherName>Marvel</publisherName>
+        <country>US</country>
+        <seriesTitle>X-Men</seriesTitle>
+        <seriesYear>1963</seriesYear>
+        <volumeNumber>1</volumeNumber>
+        <issueNumber>141</issueNumber>
+        <language>en</language>
+        <format>ComicBook</format>
+        <edition>Newsstand</edition>
+        <printing>1</printing>
+        <condition>NM</condition>
+    </Comic>
+  
+    <!--http://www.comics.org/issue/35133/-->
+    <Comic>
+        <publisherName>Marvel</publisherName>
+        <country>US</country>
+        <seriesTitle>Uncanny X-Men</seriesTitle>
+        <seriesYear>1981</seriesYear>
+        <volumeNumber>1</volumeNumber>
+        <issueNumber>142</issueNumber>
+        <language>en</language>
+        <format>ComicBook</format>
+        <edition>Direct</edition>
+        <printing>1</printing>
+        <condition>FN+</condition>
+    </Comic>
+</Collection>

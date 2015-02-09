@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+    NAME         : Comic Book Schema (Core) Example #002B
+    DATE CREATED : 10/02/14
+    AUTHOR       : Sean Petiya
+    URL          : http://comicmeta.org
+    DESCRIPTION  : RDF description of Daredevil (1964) #67 with blank nodes (b-nodes) in CBO using Comic Book Schema (Core).
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+    
+ <rdf:Description rdf:about="http://example.org/issues/Daredevil_1964_67">
+    <cbo:series>
+      <rdf:Description>
+        <cbo:country rdf:resource="http://vocab.getty.edu/tgn/7012149"></cbo:country>
+        <cbo:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"></cbo:language>
+        <cbo:publisher rdf:resource="http://viaf.org/viaf/152451185"></cbo:publisher>
+        <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook"></cbo:format>
+        <cbo:seriesTitle>Daredevil</cbo:seriesTitle>
+        <cbo:seriesYear>1964</cbo:seriesYear>
+        <cbo:volumeNumber>1</cbo:volumeNumber>
+        <cbo:issue>
+          <rdf:Description>
+            <cbo:issueNumber>67</cbo:issueNumber>
+            <cbo:printing>1</cbo:printing>
+            <cbo:copy>
+              <rdf:Description>
+                <cbo:condition rdf:resource="http://comicmeta.org/vocab/VG-"></cbo:condition>
+                <cbo:grade rdf:resource="http://comicmeta.org/vocab/3.5"></cbo:grade>
+                <cbo:certNumber>0198524001</cbo:certNumber>
+                <cbo:owner rdf:resource="https://sean.petiya.com/#me"></cbo:owner>
+              </rdf:Description>
+            </cbo:copy>
+          </rdf:Description>
+        </cbo:issue>
+      </rdf:Description>
+    </cbo:series>
+  </rdf:Description>
+  
+</rdf:RDF>

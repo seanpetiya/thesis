@@ -2,7 +2,7 @@
 # DATE CREATED : 11/29/14
 # AUTHOR       : Sean Petiya
 # URL          : http://petiya.com/thesis
-# SUMMARY      : RDF triples extracted from the semantic annotations, or RDFa markup, added to the HTML5 content in Fig. 8.
+# DESCRIPTION  : RDF triples extracted from the semantic annotations, or RDFa markup, added to the HTML5 content in Fig. 8.
 
 @prefix cbo: <http://comicmeta.org/cbo/> .
 

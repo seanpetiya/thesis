@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+    NAME         : Comic Book Schema (Core) Example #002A
+    DATE CREATED : 10/02/14
+    AUTHOR       : Sean Petiya
+    URL          : http://comicmeta.org
+    DESCRIPTION  : RDF description of Daredevil (1964) #67 in CBO using Comic Book Schema (Core).
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cbo="http://comicmeta.org/cbo/">
+  
+    <rdf:Description rdf:about="http://example.org/publisher/Marvel">
+        <cbo:publisherName>Marvel Comics</cbo:publisherName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/series/Daredevil_1964">
+        <cbo:seriesTitle>Daredevil</cbo:seriesTitle>
+        <cbo:alternativeTitle>Daredevil (1964)</cbo:alternativeTitle>
+        <cbo:seriesYear>1964</cbo:seriesYear>
+        <cbo:volumeNumber>1</cbo:volumeNumber>
+        <cbo:issue rdf:resource="http://example.org/issue/Daredevil_1964_67"></cbo:issue>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/issue/Daredevil_1964_67">
+        <cbo:issueNumber>67</cbo:issueNumber>
+        <cbo:publicationDate>1970-08</cbo:publicationDate>
+        <cbo:coverPage rdf:resource="DD67_Cover"></cbo:coverPage>
+        <cbo:story>
+            <rdf:Description>
+                <cbo:storyTitle>Stilt-Man Stalks the Soundstage</cbo:storyTitle>
+                <cbo:character rdf:about="http://marvel.wikia.com/Daredevil">Daredevil</cbo:character>
+                <cbo:writer>Roy Thomas</cbo:writer>
+            </rdf:Description>
+        </cbo:story>
+    </rdf:Description>
+  
+    <rdf:Description rdf:nodeID="DD67_Cover">
+        <cbo:pageType rdf:resource="http://comicmeta.org/vocab/CoverPage"></cbo:pageType>
+        <cbo:penciller>Marie Severin</cbo:penciller>
+        <cbo:letterer>Sam Rosen</cbo:letterer>
+        <cbo:inker>Bill Everett</cbo:inker>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/copies/MyCopyOfDaredevil67">
+        <cbo:certNumber>0198524001</cbo:certNumber>
+        <cbo:copyOf rdf:resource="http://example.org/issue/Daredevil_1964_67"></cbo:copyOf>
+        <cbo:grade rdf:resource="http://comicmeta.org/vocab/3.5"></cbo:grade>
+        <cbo:itemOf rdf:resource="http://example.org/collection/MyCollection"></cbo:itemOf>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/collection/MyCollection">
+        <dc:title>My Comic Book Collection</dc:title>
+        <cbo:owner rdf:resource="https://sean.petiya.com/#me" foaf:name="Sean Petiya"></cbo:owner>
+    </rdf:Description>
+
+</rdf:RDF>

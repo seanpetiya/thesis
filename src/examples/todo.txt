@@ -1,8 +1,0 @@
-/* EXAMPLES - PROFILES */
-Figure 38. Core AP example in HTML/RDFa.	103
-Figure 39. Core AP example in HTML/RDFa using fragmented identifiers.	104
-Figure 40. Core AP example in HTML/RDFa using blank nodes.	104
-Figure 42. Publisher (PB) AP example in HTML/RDFa.	107
-Figure 43. Retailer (RT) AP example in HTML/RDFa.	109
-Figure 44. Library (LB) AP example in HTML/RDFa.	113
-Figure 45. Linked Data in HTML/RDFa example.	116

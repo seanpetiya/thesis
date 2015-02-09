@@ -2,7 +2,7 @@
 # DATE CREATED : 11/29/14
 # AUTHOR       : Sean Petiya
 # URL          : http://petiya.com/thesis
-# SUMMARY      : The commands in this document simulate content negotiation requests from a Semantic Web application. 
+# DESCRIPTION  : The commands in this document simulate content negotiation requests from a Semantic Web application. 
                  The first command requests an RDF representation of the given IRI, the second command -- the default command 
                  without a content type specified -- responds with a 303 for an .html document (See Section 4.1.4).
 

@@ -1,0 +1,29 @@
+<!--
+        NAME         : Comic Book Schema (Core) XML Map
+        DATE CREATED : 09/27/14
+        AUTHOR       : Sean Petiya
+        URL          : http://comicmeta.org
+        DESCRIPTION  : XML map of elements in the Comic Book Schema (Core) XSD document. For use with spreadsheet software, such as Microsoft Excel, to automatically generate XML records from CSV data.
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<cbo:Collection xmlns:cbo="http://comicmeta.org/cbo/">
+  <cbo:Comic>
+    <cbo:publisherName></cbo:publisherName>
+    <cbo:imprintName></cbo:imprintName>
+    <cbo:country></cbo:country>
+    <cbo:seriesTitle></cbo:seriesTitle>
+    <cbo:seriesYear></cbo:seriesYear>
+    <cbo:volumeNumber></cbo:volumeNumber>
+    <cbo:issueNumber></cbo:issueNumber>
+    <cbo:language></cbo:language>
+    <cbo:format></cbo:format>
+    <cbo:edition></cbo:edition>
+    <cbo:printing></cbo:printing>
+    <cbo:variance></cbo:variance>
+    <cbo:condition></cbo:condition>
+    <cbo:grade></cbo:grade>
+    <cbo:certNumber></cbo:certNumber>
+  </cbo:Comic>
+  <cbo:Comic></cbo:Comic>
+</cbo:Collection>
