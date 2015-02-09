@@ -3,7 +3,8 @@
         DATE CREATED : 09/27/14
         AUTHOR       : Sean Petiya
         URL          : http://comicmeta.org
-        DESCRIPTION  : XML map of elements in the Comic Book Schema (Core) XSD document. For use with spreadsheet software, such as Microsoft Excel, to automatically generate XML records from CSV data.
+        DESCRIPTION  : XML map of elements in the Comic Book Schema (Core) XSD document. For use with spreadsheet software, 
+                       such as Microsoft Excel, to automatically generate XML records from CSV data.
 -->
 
 <?xml version="1.0" encoding="utf-8" ?>
