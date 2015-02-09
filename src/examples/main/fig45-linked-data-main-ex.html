@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+    NAME         : Figure 45. Linked Data in HTML/RDFa example (p. 117)
+    DATE CREATED : 11/29/14
+    AUTHOR       : Sean Petiya
+    URL          : http://petiya.com/thesis
+    SEE ALSO     : Appendix H (p. 178)
+    MOD HISTORY  : 02/08/15 - Fixed mistake in role name, 'letterist' changed to 'letterer'.
+-->
+<html prefix="cbo: http://comicmeta.org/cbo/ cbv: http://comicmeta.org/vocab/ rdfa: http://www.w3.org/ns/rdfa#">
+    <body>
+        <div typeof="Comic" vocab="http://comicmeta.org/cbo/">
+            <div property="series" typeof="Series Volume" resource="http://www.comics.org/series/1570">
+                <h1 property="alternativeTitle"><span property="seriesTitle">The Amazing Spider-Man</span> (<span property="seriesYear">1963</span>)</h1>
+                <section>
+                    <h2>Details</h2>
+                    Publisher: <span property="publisher" resource="http://viaf.org/viaf/152451185">Marvel Comics</span><br />
+                    Country: <span property="country" resource="http://id.loc.gov/vocabulary/geographicAreas/n-us">US</span><br />
+                    Language: <span propery="language" resource="http://id.loc.gov/vocabulary/iso639-2/eng">English</span><br />
+                    Format: <span property="format" resource="cbv:ComicBook">Comic Book</span><br />
+                    Volume: <span property="volumeNumber">1</span><br />
+                    <div property="issue" typeof="Issue" resource="http://www.comics.org/issue/44703">
+                        Issue Number: <span property="issueNumber">302</span><br />
+                        Publication Date: <span property="publicationDate">1988-07</span>
+                        <br />
+                        Binding: <span property="binding" resource="cbv:SaddleStitched">Saddle-Stitched</span><br />
+                        Paper: <span property="paper" resource="cbv:Newsprint">Newsprint</span><br />
+                        <section property="story" typeof="Story" resource="http://www.comics.org/issue/44703/#247477">
+                            <h3 property="storyTitle">(Mid) American Gothic</h3>
+                            <section>
+                                <h4>Credits</h4>
+                                <div property="writer" typeof="Contributor" resource="http://viaf.org/viaf/56733100">
+                                    Writer: <span property="schema:name">David Michelinie</span>
+                                </div>
+                                <div property="penciller" typeof="Contributor" resource="http://viaf.org/viaf/46886250">
+                                    Pencils: <span property="schema:name">Todd McFarlane</span>
+                                </div>
+                                <div property="inker" typeof="Contributor" resource="http://viaf.org/viaf/46886250">
+                                    Inks: <span property="schema:name">Todd McFarlane</span>
+                                </div>
+                                <div property="colorist" typeof="Contributor" resource="http://viaf.org/viaf/74940372">
+                                    Colors: <span property="schema:name">Gregory Wright</span>
+                                </div>
+                                <div property="letterer" typeof="Contributor">
+                                    Letters: <span property="schema:name">Rick Parker</span>
+                                </div>
+                            </section>
+                            <section>
+                                <h4>Appearances</h4>
+                                <div>
+                                    Characters: <a property="character" typeof="Character" href="http://dbpedia.org/page/Spider-Man">Spider-Man</a>
+                                </div>
+                            </section>
+                            <section>
+                                <h2>Reprinted In</h2>
+                                <ul>
+                                    <li><a property="collectedIn" typeof="Comic schema:Book" href="http://www.worldcat.org/oclc/714725942">
+                                            <span property="seriesTitle">The Amazing Spider-Man <span property="format" resource="cbv:Omnibus">Omnibus</span></span></a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h2>Translations</h2>
+                                <ul>
+                                    <li>
+                                        <a property="translation" typeof="Comic" href="http://www.comics.org/issue/899800">
+                                            <span><span property="seriesTitle">L'Étonnant Spider-Man (<span property="seriesYear">1993</span>)</span> #<span property="issueNumber">5</span></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h2>Copies</h2>
+                                <ul>
+                                    <li>
+                                        <span property="copy" typeof="Copy">
+                                            <span property="guarantor" resource="cbv:CGC">CGC</span>&nbsp;<span property="grade" resource="cbv:9.4">9.4</span>&nbsp;#<a property="certNumber">0226722022</a> owned by <a property="ownedBy" href="https://sean.petiya.com/#me">Sean Petiya</a> (20.00 USD)
+                                        </span>
+                                    </li>
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html> 
+
+
+
+

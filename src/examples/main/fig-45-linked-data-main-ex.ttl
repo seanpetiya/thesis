@@ -1,0 +1,73 @@
+# NAME         : Figure 9. RDF triples extracted from RDFa markup (p. 29)
+# DATE CREATED : 11/29/14
+# AUTHOR       : Sean Petiya
+# URL          : http://petiya.com/thesis
+# SEE ALSO     : Appendix I (p. 180)
+# SUMMARY      : RDF triples extracted from the semantic annotations, or RDFa markup, of the primary HTML/RDFa example (Appendix H).
+# MOD HISTORY  : 02/08/15 - Updated data to reflect fixed role name: 'letterist' changed to 'letterer'.
+
+@prefix cbo: <http://comicmeta.org/cbo/> .
+@prefix cbv: <http://comicmeta.org/vocab/> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+
+<> rdfa:usesVocabulary cbo: .
+
+<http://dbpedia.org/page/Spider-Man> a cbo:Character .
+
+<http://viaf.org/viaf/56733100> a cbo:Contributor;
+    schema:name "David Michelinie" .
+
+<http://viaf.org/viaf/74940372> a cbo:Contributor;
+    schema:name "Gregory Wright" .
+
+<http://www.comics.org/issue/44703> a cbo:Issue;
+    cbo:binding cbv:SaddleStitched;
+    cbo:issueNumber "302";
+    cbo:paper cbv:Newsprint;
+    cbo:publicationDate "1988-07";
+    cbo:story <http://www.comics.org/issue/44703/#247477> .
+
+<http://www.comics.org/issue/44703/#247477> a cbo:Story;
+    cbo:character <http://dbpedia.org/page/Spider-Man>;
+    cbo:collectedIn <http://www.worldcat.org/oclc/714725942>;
+    cbo:colorist <http://viaf.org/viaf/74940372>;
+    cbo:copy [ a cbo:Copy;
+            cbo:certNumber "0226722022";
+            cbo:grade <http://comicmeta.org/vocab/9.4>;
+            cbo:guarantor cbv:CGC;
+            cbo:ownedBy <https://sean.petiya.com/#me> ];
+    cbo:inker <http://viaf.org/viaf/46886250>;
+    cbo:letterer [ a cbo:Contributor;
+            schema:name "Rick Parker" ];
+    cbo:penciller <http://viaf.org/viaf/46886250>;
+    cbo:storyTitle "(Mid) American Gothic";
+    cbo:translation <http://www.comics.org/issue/899800>;
+    cbo:writer <http://viaf.org/viaf/56733100> .
+
+<http://www.comics.org/issue/899800> a cbo:Comic;
+    cbo:issueNumber "5";
+    cbo:seriesTitle "L'Ătonnant Spider-Man (1993)";
+    cbo:seriesYear "1993" .
+
+<http://www.comics.org/series/1570> a cbo:Series,
+        cbo:Volume;
+    cbo:alternativeTitle "The Amazing Spider-Man (1963)";
+    cbo:country <http://id.loc.gov/vocabulary/geographicAreas/n-us>;
+    cbo:format cbv:ComicBook;
+    cbo:issue <http://www.comics.org/issue/44703>;
+    cbo:publisher <http://viaf.org/viaf/152451185>;
+    cbo:seriesTitle "The Amazing Spider-Man";
+    cbo:seriesYear "1963";
+    cbo:volumeNumber "1" .
+
+<http://www.worldcat.org/oclc/714725942> a cbo:Comic,
+        schema:Book;
+    cbo:format cbv:Omnibus;
+    cbo:seriesTitle "The Amazing Spider-Man Omnibus" .
+
+<http://viaf.org/viaf/46886250> a cbo:Contributor;
+    schema:name "Todd McFarlane" .
+
+[] a cbo:Comic;
+    cbo:series <http://www.comics.org/series/1570> .
