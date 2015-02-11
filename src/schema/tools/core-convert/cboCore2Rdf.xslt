@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-        NAME         : cboCore2Rdf
+        NAME         : cboCore2Rdf.xslt
         DATE CREATED : 09/27/14
         AUTHOR       : Sean Petiya
         URL          : http://comicmeta.org/tools/core-convert/

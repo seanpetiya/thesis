@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        NAME         : Collection Example Export (RDF/XML)
+        DATE CREATED : 09/27/14
+        AUTHOR       : Sean Petiya
+        URL          : http://comicmeta.org/tools/core-convert/
+        DESCRIPTION  : RDF/XML data describing an example comic book collection generated from an XML dataset. RDF data can be
+                       created directly from CSV data by using an intermediary tool (e.g. http://comicmeta.org/tools/core-convert/).
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cbo="http://comicmeta.org/cbo/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:msxml="urn:schemas-microsoft-com:xslt">
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>10</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>11</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>12</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>13</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>14</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>15</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>16</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>17</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>18</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>19</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/133815881">
+                        <cbo:publisherName>DC Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Batman (2011)</cbo:seriesTitle>
+                <cbo:seriesYear>2011</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>20</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>1</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>2</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>3</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>4</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>5</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Fantastic Four (1996)</cbo:seriesTitle>
+                <cbo:seriesYear>1996</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>6</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                        <cbo:imprint>
+                            <rdf:Description>
+                                <cbo:imprintName>Tsunami</cbo:imprintName>
+                            </rdf:Description>
+                        </cbo:imprint>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>New Mutants (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>2</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>4</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/VF" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                        <cbo:imprint>
+                            <rdf:Description>
+                                <cbo:imprintName>Tsunami</cbo:imprintName>
+                            </rdf:Description>
+                        </cbo:imprint>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>New Mutants (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>2</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>5</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/VF" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                        <cbo:imprint>
+                            <rdf:Description>
+                                <cbo:imprintName>Tsunami</cbo:imprintName>
+                            </rdf:Description>
+                        </cbo:imprint>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>New Mutants (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>2</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>11</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/VF" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                        <cbo:imprint>
+                            <rdf:Description>
+                                <cbo:imprintName>Tsunami</cbo:imprintName>
+                            </rdf:Description>
+                        </cbo:imprint>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>New Mutants (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>2</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>12</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/VF" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>New Mutants (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>2</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>13</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/VF" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>10</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>11</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>12</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>13</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>14</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description>
+                        <cbo:publisherName>Dark Horse Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Star Wars (1998)</cbo:seriesTitle>
+                <cbo:seriesYear>1998</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>15</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>4</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>5</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>20</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>21</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>30</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>31</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>32</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>33</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>34</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Savage Dragon (1993)</cbo:seriesTitle>
+                <cbo:seriesYear>1993</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>35</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/MT" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>4</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>5</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>6</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>7</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>8</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>9</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>16</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>17</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>18</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>19</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>20</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>21</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Image Comics</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>The Walking Dead (2003)</cbo:seriesTitle>
+                <cbo:seriesYear>2003</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>22</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/GD" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Uncanny X-Men (1963)</cbo:seriesTitle>
+                <cbo:seriesYear>1963</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>1</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>141</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM-" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Uncanny X-Men (1963)</cbo:seriesTitle>
+                <cbo:seriesYear>1963</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>1</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>142</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM-" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://comicmeta.org/cbo/Comic" />
+        <cbo:series>
+            <rdf:Description>
+                <cbo:publisher>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/152451185">
+                        <cbo:publisherName>Marvel</cbo:publisherName>
+                    </rdf:Description>
+                </cbo:publisher>
+                <cbo:country rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us" />
+                <cbo:seriesTitle>Uncanny X-Men (1963)</cbo:seriesTitle>
+                <cbo:seriesYear>1963</cbo:seriesYear>
+                <cbo:volume>
+                    <rdf:Description>
+                        <cbo:volumeNumber>1</cbo:volumeNumber>
+                        <cbo:issue>
+                            <rdf:Description>
+                                <cbo:issueNumber>143</cbo:issueNumber>
+                                <cbo:format rdf:resource="http://comicmeta.org/vocab/ComicBook" />
+                                <cbo:copy>
+                                    <rdf:Description>
+                                        <cbo:condition rdf:resource="http://comicmeta.org/vocab/NM-" />
+                                    </rdf:Description>
+                                </cbo:copy>
+                            </rdf:Description>
+                        </cbo:issue>
+                    </rdf:Description>
+                </cbo:volume>
+            </rdf:Description>
+        </cbo:series>
+    </rdf:Description>
+</rdf:RDF>
